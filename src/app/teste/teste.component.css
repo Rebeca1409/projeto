@@ -1,0 +1,35 @@
+
+h1{
+  color:rgb(0, 0, 0);
+}
+h1{
+  animation-duration:3s,
+}
+
+
+
+
+h2{
+  border: 5px solid lightcoral;
+  border-width: thin;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color:rgb(167, 68, 83);
+}
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
